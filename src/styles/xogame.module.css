@@ -1,0 +1,55 @@
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.square:hover {
+  background-color: #e0e0e0;
+}
+
+.winner {
+  margin-top: 20px;
+}
+
+.winner p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
