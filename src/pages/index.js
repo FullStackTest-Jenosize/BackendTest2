@@ -59,7 +59,6 @@ export default function Home() {
     const icon = (
       <Image src={iconPath} alt={board[index]} width={60} height={60} />
     );
-    console.log(icon);
     return (
       <div className={styles.square} onClick={() => handleClick(index)}>
         {board[index] && icon}
