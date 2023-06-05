@@ -1,6 +1,4 @@
 import { useState, useRef } from "react";
-import xIcon from "../../public/penguinX.png";
-import oIcon from "../../public/penguinO.png";
 import styles from "../styles/xogame.module.css";
 import Image from "next/image";
 
